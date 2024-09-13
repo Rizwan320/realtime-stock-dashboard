@@ -10,10 +10,7 @@
     "start:dist": "node dist/src/index.js",
     "lint": "eslint --fix src test",
     "test": "jest",
-    "typecheck": "tsc --noEmit",
-    "db:migrate": "sequelize-cli db:migrate",
-    "db:reset": "sequelize db:migrate:undo:all",
-    "db:seed": "sequelize-cli db:seed:all"
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
   "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
